@@ -8,7 +8,7 @@ namespace eLearning.Entities
 {
     public enum Gender
     {
-        M, F
+        Male, Female
     }
 
     public class Tutor

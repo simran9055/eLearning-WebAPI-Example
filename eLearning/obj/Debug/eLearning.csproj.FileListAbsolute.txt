@@ -5,6 +5,6 @@ C:\Users\jassi\Desktop\ASP MVC\eLearning\eLearning\bin\Debug\EntityFramework.dll
 C:\Users\jassi\Desktop\ASP MVC\eLearning\eLearning\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\jassi\Desktop\ASP MVC\eLearning\eLearning\bin\Debug\EntityFramework.xml
 C:\Users\jassi\Desktop\ASP MVC\eLearning\eLearning\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\jassi\Desktop\ASP MVC\eLearning\eLearning\obj\Debug\eLearning.csprojResolveAssemblyReference.cache
 C:\Users\jassi\Desktop\ASP MVC\eLearning\eLearning\obj\Debug\eLearning.dll
 C:\Users\jassi\Desktop\ASP MVC\eLearning\eLearning\obj\Debug\eLearning.pdb
+C:\Users\jassi\Desktop\ASP MVC\eLearning\eLearning\obj\Debug\eLearning.csprojResolveAssemblyReference.cache
