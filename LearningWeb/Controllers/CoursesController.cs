@@ -7,22 +7,49 @@ using System.Web.Http;
 using eLearning.Context;
 using eLearning.Entities;
 using eLearning.Repository;
+using LearningWeb.Models;
 
 namespace LearningWeb.Controllers
 {
-    public class CoursesController : ApiController
+    public class CoursesController : BaseApiController
     {
-        public List<Course> Get()
+        public CoursesController(ILearningRepository repo)
+            : base(repo)
         {
-            ILearningRepository repository = new LearningRepository(new LearningContext());
-            return repository.GetAllCourses().ToList();
         }
 
-        public Course GetCourse(int id)
+        public IEnumerable<CourseModel> Get()
         {
-            ILearningRepository repository = new LearningRepository(new LearningContext());
+            IQueryable<Course> query;
 
-            return repository.GetCourse(id);
+            query = TheRepository.GetAllCourses();
+
+            var results = query
+            .ToList()
+            .Select(s => TheModelFactory.Create(s));
+
+            return results;
+        }
+
+        public HttpResponseMessage GetCourse(int id)
+        {
+            try
+            {
+                var course = TheRepository.GetCourse(id);
+                if (course != null)
+                {
+                    return Request.CreateResponse(HttpStatusCode.OK, TheModelFactory.Create(course));
+                }
+                else
+                {
+                    return Request.CreateResponse(HttpStatusCode.NotFound);
+                }
+
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex);
+            }
         }
     }
 }

@@ -26,3 +26,11 @@ C:\Users\jassi\Desktop\ASP MVC\eLearning\LearningWeb\bin\eLearning.pdb
 C:\Users\jassi\Desktop\ASP MVC\eLearning\LearningWeb\bin\EntityFramework.xml
 C:\Users\jassi\Desktop\ASP MVC\eLearning\LearningWeb\bin\EntityFramework.SqlServer.xml
 C:\Users\jassi\Desktop\ASP MVC\eLearning\LearningWeb\obj\Debug\LearningWeb.csprojResolveAssemblyReference.cache
+C:\Users\jassi\Desktop\ASP MVC\eLearning\LearningWeb\bin\Ninject.Web.Common.dll
+C:\Users\jassi\Desktop\ASP MVC\eLearning\LearningWeb\bin\Ninject.dll
+C:\Users\jassi\Desktop\ASP MVC\eLearning\LearningWeb\bin\WebActivator.dll
+C:\Users\jassi\Desktop\ASP MVC\eLearning\LearningWeb\bin\Ninject.Web.Common.pdb
+C:\Users\jassi\Desktop\ASP MVC\eLearning\LearningWeb\bin\Ninject.Web.Common.xml
+C:\Users\jassi\Desktop\ASP MVC\eLearning\LearningWeb\bin\Ninject.pdb
+C:\Users\jassi\Desktop\ASP MVC\eLearning\LearningWeb\bin\Ninject.xml
+C:\Users\jassi\Desktop\ASP MVC\eLearning\LearningWeb\bin\WebApiContrib.IoC.Ninject.dll
