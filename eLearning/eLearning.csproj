@@ -61,6 +61,8 @@
     <Compile Include="Mappers\SubjectMapper.cs" />
     <Compile Include="Mappers\TutorMapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\ILearningRepository.cs" />
+    <Compile Include="Repository\LearningRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

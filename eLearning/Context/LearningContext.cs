@@ -9,7 +9,7 @@ using eLearning.Mappers;
 
 namespace eLearning.Context
 {
-    class LearningContext : DbContext
+    public class LearningContext : DbContext
     {
         public LearningContext() :
             base("eLearningConnection")
